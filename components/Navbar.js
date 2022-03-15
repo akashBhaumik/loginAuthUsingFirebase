@@ -17,6 +17,11 @@ export default function Navbar({ navCondition, withOutLogin }) {
                     </Link>
                 </li>
                 <li>
+                    <Link href="/about">
+                        <a>About</a>
+                    </Link>
+                </li>
+                <li>
                     <Link href="/auth">
                         <a>Sign in</a>
                     </Link>
